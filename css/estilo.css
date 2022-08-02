@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700&display=swap');
+
+:root{
+    --cor-base-texto:#000000;
+    --cor-ti: #01c4ff;
+    --cor-rosa-escuro: #cc078a;
+    --cor-lilas: #af00e4;
+    --cor-cinza-claro: #EEEEEE;
+    --cor-azul: #2c80ff;
+    --cor-azul-escuro: #001866;
+    --cor-roxo: #460266;
+    --cor-ciano: #08dbeb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0); 
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255,255,255); 
+}
+
+.nome-profissao-atual{
+    color: var(--cor-ciano);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nome-profissao{
+    color: var(--cor-ciano);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  
+}
+
+.flex{
+    display: flex;
+   
+}
+
+.uppercase{
+    text-transform: uppercase;
+   
+}
+
+.letter-spacing{
+    letter-spacing: 5px;
+  
+}
+
+#container-titulo{
+    align-items: center;
+    height: 90px;
+    justify-content: center;
+   
+}
+
+#container-titulo img{
+    height: 30px;
+    margin-right: 10px;
+    
+}
+
+#foto-perfil{
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    overflow: hidden;
+   
+
+}
+
+#container-nome{
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+    justify-content: center;
+    
+}
+
+.titulo-secao{
+    background-color: var(--cor-roxo);
+    border-top: solid 1px var(--cor-base-texto);
+    font-size: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    
+}
+
+.container-arejado{
+    padding: 2rem;
+    
+}
+
+section p{
+    line-height: 2rem;
+   
+}
+
+.container-arejado .margem-inferior{
+    margin-bottom: 2rem;
+    
+}
+
+.dados-experiencia *{
+    line-height: 1rem;
+   
+}
+
+.dados-experiencia{
+    margin-bottom: 2rem;
+    
+}
+
+.data-experiencia{
+    color: var(--cor-lilas);
+}
+
+#container-img-endereco{
+    background-color: var(--cor-ciano);
+}
+
+#link-endereco{
+    background-color: var(--cor-ciano);
+}
+
+#container-img-telefone{
+    background-color: var(--cor-azul);
+}
+
+#link-telefone{
+    background-color: var(--cor-azul);
+}
+
+#container-img-nuvem{
+    background-color: var(--cor-azul-escuro);
+}
+
+#link-nuvem{
+    background-color: var(--cor-azul-escuro);
+}
+
+#container-img-email{
+    background-color: var(--cor-roxo);
+}
+
+#link-email{
+    background-color: var(--cor-roxo);
+}
+
+.linha{
+  
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    transition: all ease-in-out .3s
+
+}
+
+.linha:hover{
+    transform: scale(1.02);
+  
+}
+.linha a{ 
+    flex: 1;
+    height: 100%;
+    line-height: 3.4rem;
+    padding-left: 1rem;
+    text-decoration: none;
+    color: rgb(247, 234, 236);
+  
+}
+
+footer{
+    width: 100%;
+  
+}
+
+.container-img{
+    align-items: center;
+    box-shadow: inset 0 0 10px 5px rgba(0,0,0,0.1);
+    display: flex;
+    width: 50px;
+    justify-content: center;
+ 
+}
+
+
+.container-img img{
+    height: 1,9rem;
+  
+}
